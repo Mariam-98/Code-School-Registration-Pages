@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_marginHorizontal">@dimen/_30dp</item>
+        <item name="backgroundTint">@color/darkBlue</item>
+        <item name="height">@dimen/_58dp</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/lightGrey</item>
+        <item name="hintTextColor">@color/darkGrey</item>
+        <item name="android:textColorHint">@color/darkGrey</item>
+        <item name="android:layout_marginHorizontal">@dimen/_30dp</item>
+        <item name="startIconTint">@color/startIconBlue</item>
+    </style>
+</resources>

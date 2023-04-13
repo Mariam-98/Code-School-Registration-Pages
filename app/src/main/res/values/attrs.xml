@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="isRequired" format="boolean" />
+    <attr name="validationType" format="enum">
+        <enum name="email" value="0" />
+        <enum name="phone" value="1" />
+        <enum name="password" value="2" />
+        <enum name="name" value="3" />
+        <enum name="confirmPassword" value="3" />
+    </attr>
+
+    <declare-styleable name="ValidatorTextInputEditTextView">
+        <attr name="isRequired" />
+        <attr name="validationType" />
+        <attr name="textInputLayoutId" format="reference"/>
+    </declare-styleable>
+</resources>
